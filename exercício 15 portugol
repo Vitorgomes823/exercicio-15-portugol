@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro parcelas
+		real valor, totaldrone = 8190.00
+
+		escreva("Quantas parecelas você gostaria de pagar ? : ")
+		leia(parcelas)
+
+		se (parcelas <= 15 )
+		{
+			valor = totaldrone / parcelas
+			escreva("o valor das parcelas será de R$",valor)
+		}
+
+		se (parcelas > 15 )
+		{
+			escreva("o maximo de parcelas permitidas é 15\nInsira quantas parcelas você gostaria de pagar : ")
+			leia(parcelas)
+		}
+		
+	}
+}
